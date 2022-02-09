@@ -1,6 +1,7 @@
 import * as React from "react"
 import PropTypes from "prop-types"
-import { Link } from "gatsby"
+import { Link, withPrefix } from "gatsby"
+import { Helmet } from "react-helmet"
 
 const Header = ({ siteTitle }) => (
   <header
@@ -28,6 +29,9 @@ const Header = ({ siteTitle }) => (
         </Link>
       </h1>
     </div>
+    <Helmet>
+      <script src={withPrefix('script.js')} type="text/javascript"></script>
+    </Helmet>
   </header>
 )
 
