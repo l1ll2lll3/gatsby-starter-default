@@ -1,0 +1,25 @@
+POST /beacon start
+rt.start=navigation
+rt.bmr=195
+rt.tstart=1644826432833
+rt.bstart=1644826433037
+rt.end=1644826433132
+t_resp=5
+t_page=294
+t_done=299
+t_other=t_domloaded%7C219%2Cboomerang%7C97%2Cboomr_fb%7C204
+rt.tt=2812
+rt.obo=1
+u=http%3A%2F%2Fwww.hello.com%2F1.html
+v=%25boomerang_version%25
+sm=i
+rt.si=3fe3d49a-4c77-4cdd-90c1-83d9ede85b6b-r7aacz
+rt.ss=1644824051002
+rt.sl=24
+vis.st=visible
+ua.plt=Win32
+ua.vnd=Google%20Inc.
+pid=190wyhop
+n=1
+sb=1
+POST /beacon end

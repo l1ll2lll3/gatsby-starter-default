@@ -30,8 +30,16 @@ const Header = ({ siteTitle }) => (
       </h1>
     </div>
     <Helmet>
-      <script src={withPrefix('script.js')} type="text/javascript"></script>
+    <script src={withPrefix('bmr.js')} type="text/javascript"></script>
+    <script src={withPrefix('plugins/rt.js')} type="text/javascript"></script>
+    <script src={withPrefix('plugins/navtiming.js')} type="text/javascript"></script>
+    <script src={withPrefix('plugins/auto-xhr.js')} type="text/javascript"></script>
+    <script src={withPrefix('plugins/spa.js')} type="text/javascript"></script>
+    <script src={withPrefix('plugins/history.js')} type="text/javascript"></script>
+    <script src={withPrefix('script.js')} type="text/javascript"></script>
+   
     </Helmet>
+
   </header>
 )
 

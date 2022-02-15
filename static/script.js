@@ -10,4 +10,8 @@
     host: b,
   }; w.__whatab_browser_agent__.load(a);
 })(window, document, "https://repo.whatap.io/rum/v1/whatap-browser-agent.js", 'whatap-dev-license', 1488 ,'http://192.168.115.215:8000/');
-    
+
+
+BOOMR.init({
+beacon_url: "http://192.168.225.30:8080/beacon/"
+});
